@@ -163,3 +163,6 @@ Os cálculos são realizados no navegador. O projeto não possui, por padrão, m
 ## Aviso
 
 > Este projeto é uma demonstração educacional desenvolvida para estudos de HTML, CSS e JavaScript. A empresa mencionada é fictícia e qualquer semelhança com empresas reais é mera coincidência.
+
+Your site is live at https://alcane1959.github.io/Brasil-em-Dados/
+

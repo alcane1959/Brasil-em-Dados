@@ -30,6 +30,63 @@
 .invest-controls{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:16px}.invest-table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px}.invest-table{min-width:980px}.invest-table th{position:sticky;top:0;background:#10233a}.invest-table td.num{text-align:right;font-variant-numeric:tabular-nums}.pill{display:inline-block;padding:3px 8px;border-radius:99px;font-size:11px;font-weight:750}.pill.free{background:#123c31;color:#78f0be}.pill.tax{background:#40291c;color:#fdba74}.best-row{background:#0d2a28}.risk-note{margin-top:12px;padding:12px;border:1px solid var(--line);background:#0c1b2d;border-radius:12px;color:var(--muted);font-size:12px}
 @media(max-width:900px){.invest-controls{grid-template-columns:repeat(2,1fr)}}@media(max-width:580px){.invest-controls{grid-template-columns:1fr}}
 @media print{.invest-controls{grid-template-columns:repeat(4,1fr)}.invest-table-wrap{overflow:visible}.invest-table{min-width:0;font-size:8px}.invest-table th,.invest-table td{padding:4px}.risk-note{background:#fff}.best-row{background:#ecfdf5!important}}
+
+/* Ajuste exclusivamente visual para impressao. Nao altera dados nem calculos. */
+@media print{
+  body{-webkit-print-color-adjust:economy;print-color-adjust:economy}
+  input,select,textarea,.btn{
+    background:#fff!important;
+    color:#111827!important;
+    border:1px solid #94a3b8!important;
+    box-shadow:none!important;
+  }
+  input::placeholder{color:#64748b!important}
+  .field{min-width:0;break-inside:avoid}
+  .field label{color:#374151!important}
+  .invest-controls,.calculator-grid{align-items:start}
+  .invest-controls .field input,.invest-controls .field select,
+  .calculator-grid .field input,.calculator-grid .field select{
+    width:100%!important;
+    min-width:0!important;
+    height:30px!important;
+    padding:5px 7px!important;
+    font-size:9px!important;
+  }
+  .invest-table-wrap{width:100%;overflow:visible!important;border-radius:0}
+  .invest-table{width:100%!important;min-width:0!important;table-layout:fixed;border-collapse:collapse}
+  .invest-table th,.invest-table td{
+    background:#fff!important;
+    color:#111827!important;
+    padding:4px 3px!important;
+    font-size:7.5px!important;
+    line-height:1.25!important;
+    white-space:normal!important;
+    overflow-wrap:anywhere;
+    word-break:normal;
+    vertical-align:top;
+  }
+  .invest-table th{position:static!important;font-weight:700}
+  .invest-table th:nth-child(1),.invest-table td:nth-child(1){width:17%}
+  .invest-table th:nth-child(2),.invest-table td:nth-child(2){width:15%}
+  .invest-table th:nth-child(3),.invest-table td:nth-child(3){width:13%}
+  .invest-table th:nth-child(4),.invest-table td:nth-child(4){width:14%}
+  .invest-table th:nth-child(5),.invest-table td:nth-child(5){width:12%}
+  .invest-table th:nth-child(6),.invest-table td:nth-child(6){width:14%}
+  .invest-table th:nth-child(7),.invest-table td:nth-child(7){width:8%}
+  .invest-table th:nth-child(8),.invest-table td:nth-child(8){width:7%}
+  .invest-table td.num,.invest-table th.num{font-variant-numeric:tabular-nums;white-space:nowrap!important}
+  .pill,.pill.free,.pill.tax{
+    display:inline!important;
+    padding:0!important;
+    border-radius:0!important;
+    background:transparent!important;
+    color:#111827!important;
+    font-size:7.5px!important;
+  }
+  .best-row,.best-row td{background:#f0fdf4!important}
+  .risk-note,.calc-result,.insight,.icon{background:#fff!important;color:#111827!important}
+  canvas{background:#fff!important}
+}
 </style>
 </head>
 <body>

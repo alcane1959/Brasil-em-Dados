@@ -154,6 +154,37 @@ brasil-em-dados/
 - Inclusão de PIB, rendimento médio e informalidade
 - Configuração personalizada dos indicadores do relatório
 
+### Instalação no computador
+
+### No Google Chrome ou Microsoft Edge:
+
+  1. Abra o endereço publicado do projeto.
+  2. Aguarde o carregamento completo da página.
+  3. Clique no ícone de instalação exibido na barra de endereço ou abra o menu do navegador.
+  4. Selecione Instalar aplicativo ou Instalar este site como aplicativo.
+  5. Confirme a instalação.
+
+Depois disso, o aplicativo poderá ser aberto pelo menu Iniciar, pela área de trabalho ou pelo gerenciador de aplicativos do sistema.
+
+### Instalação no celular ou tablet
+
+### Em navegadores compatíveis:
+
+1. Abra o endereço do projeto.
+2. Acesse o menu do navegador.
+3. Selecione Instalar aplicativo ou Adicionar à tela inicial.
+4. Confirme o nome e a instalação.
+
+O ícone será adicionado à tela inicial do dispositivo.
+
+**Observações**
+
+A disponibilidade e o nome da opção de instalação podem variar conforme o navegador e o sistema operacional.
+Abrir somente o arquivo index.html pelo computador não garante a instalação como PWA.
+O projeto deve ser publicado em HTTPS para utilizar os recursos completos de instalação e service worker.
+O funcionamento offline depende da configuração do service-worker.js e dos arquivos adicionados ao cache.
+Atualizações no projeto podem exigir a atualização da versão do cache do service worker.
+
 ## Licença
 
 Defina uma licença antes da publicação pública. Para projetos abertos, uma opção comum é a licença MIT. Se optar por ela, adicione um arquivo `LICENSE` ao repositório.
@@ -161,3 +192,9 @@ Defina uma licença antes da publicação pública. Para projetos abertos, uma o
 ## Autor
 
 Projeto desenvolvido como dashboard independente para visualização de indicadores públicos do Brasil.
+
+---
+
+## Aviso
+
+> Este projeto é uma demonstração educacional desenvolvida para estudos de HTML, CSS e JavaScript. A empresa mencionada é fictícia e qualquer semelhança com empresas reais é mera coincidência.

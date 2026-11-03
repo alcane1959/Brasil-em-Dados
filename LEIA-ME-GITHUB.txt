@@ -1,0 +1,21 @@
+CONFIGURAÇÃO DA EXECUÇÃO AUTOMÁTICA NO GITHUB
+
+1. Extraia o ZIP e envie todos os arquivos e pastas para a raiz do repositório.
+2. Confirme que a branch principal se chama main. Se usar outro nome, altere branches: [main] no workflow.
+3. No GitHub, abra Settings > Actions > General.
+4. Em Workflow permissions, selecione Read and write permissions e salve.
+5. Abra Settings > Pages.
+6. Em Build and deployment > Source, selecione GitHub Actions.
+7. Abra Actions > Atualizar dados e publicar Pages.
+8. Clique em Run workflow para criar o primeiro dados/painel.json e publicar o site.
+
+AGENDA
+- Dias úteis às 09:37, 13:37 e 18:37, horário de Brasília.
+- Também executa ao enviar alterações para main, exceto quando apenas dados/painel.json muda.
+- Também pode ser executado manualmente em Actions > Run workflow.
+
+ARQUIVOS
+- index.html: carrega dados/painel.json automaticamente ao abrir.
+- scripts/atualizar_dados.py: consulta e normaliza BCB, IBGE, Tesouro Direto e B3.
+- .github/workflows/atualizar-dados.yml: agenda, salva dados e publica Pages.
+- dados/painel.json: criado automaticamente na primeira execução.

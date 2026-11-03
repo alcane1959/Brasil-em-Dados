@@ -1,0 +1,543 @@
+{
+  "app": "Brasil em Dados",
+  "version": 5,
+  "exportedAt": "2026-11-03T12:12:46-03:00",
+  "meta": {
+    "usd": {
+      "reference": "30/10/2026",
+      "consultedAt": "2026-11-03T12:12:39-03:00"
+    },
+    "selic": {
+      "reference": "04/11/2026",
+      "consultedAt": "2026-11-03T12:12:39-03:00"
+    },
+    "cdi": {
+      "reference": "30/10/2026",
+      "consultedAt": "2026-11-03T12:12:40-03:00"
+    },
+    "tr": {
+      "reference": "01/10/2026",
+      "consultedAt": "2026-11-03T12:12:41-03:00"
+    },
+    "ipca": {
+      "reference": "setembro 2026",
+      "consultedAt": "2026-11-03T12:12:41-03:00"
+    },
+    "ipca12": {
+      "reference": "setembro 2026",
+      "consultedAt": "2026-11-03T12:12:42-03:00"
+    },
+    "unemp": {
+      "reference": "jul-ago-set 2026",
+      "consultedAt": "2026-11-03T12:12:42-03:00"
+    },
+    "employed": {
+      "reference": "jul-ago-set 2026",
+      "consultedAt": "2026-11-03T12:12:42-03:00"
+    },
+    "population": {
+      "reference": "2026",
+      "consultedAt": "2026-11-03T12:12:43-03:00"
+    },
+    "usdPtax": {
+      "reference": "30/10/2026",
+      "consultedAt": "2026-11-03T12:12:44-03:00"
+    },
+    "treasury": {
+      "reference": "Tesouro Prefixado 2029 / Tesouro IPCA+ 2032",
+      "consultedAt": "2026-11-03T12:12:45-03:00"
+    }
+  },
+  "state": {
+    "usd": [
+      {
+        "label": "02/10/2026",
+        "value": 5.2232
+      },
+      {
+        "label": "05/10/2026",
+        "value": 4.9853
+      },
+      {
+        "label": "06/10/2026",
+        "value": 4.9692
+      },
+      {
+        "label": "07/10/2026",
+        "value": 4.9929
+      },
+      {
+        "label": "08/10/2026",
+        "value": 5.0113
+      },
+      {
+        "label": "09/10/2026",
+        "value": 4.9886
+      },
+      {
+        "label": "13/10/2026",
+        "value": 5.009
+      },
+      {
+        "label": "14/10/2026",
+        "value": 5.0435
+      },
+      {
+        "label": "15/10/2026",
+        "value": 5.0515
+      },
+      {
+        "label": "16/10/2026",
+        "value": 5.082
+      },
+      {
+        "label": "19/10/2026",
+        "value": 5.0558
+      },
+      {
+        "label": "20/10/2026",
+        "value": 5.0134
+      },
+      {
+        "label": "21/10/2026",
+        "value": 5.027
+      },
+      {
+        "label": "22/10/2026",
+        "value": 5.0377
+      },
+      {
+        "label": "23/10/2026",
+        "value": 5.0371
+      },
+      {
+        "label": "26/10/2026",
+        "value": 5.4998
+      },
+      {
+        "label": "27/10/2026",
+        "value": 5.334
+      },
+      {
+        "label": "28/10/2026",
+        "value": 5.3414
+      },
+      {
+        "label": "29/10/2026",
+        "value": 5.3738
+      },
+      {
+        "label": "30/10/2026",
+        "value": 5.4206
+      }
+    ],
+    "selic": [
+      {
+        "label": "16/10/2026",
+        "value": 13.75
+      },
+      {
+        "label": "17/10/2026",
+        "value": 13.75
+      },
+      {
+        "label": "18/10/2026",
+        "value": 13.75
+      },
+      {
+        "label": "19/10/2026",
+        "value": 13.75
+      },
+      {
+        "label": "20/10/2026",
+        "value": 13.75
+      },
+      {
+        "label": "21/10/2026",
+        "value": 13.75
+      },
+      {
+        "label": "22/10/2026",
+        "value": 13.75
+      },
+      {
+        "label": "23/10/2026",
+        "value": 13.75
+      },
+      {
+        "label": "24/10/2026",
+        "value": 13.75
+      },
+      {
+        "label": "25/10/2026",
+        "value": 13.75
+      },
+      {
+        "label": "26/10/2026",
+        "value": 13.75
+      },
+      {
+        "label": "27/10/2026",
+        "value": 13.75
+      },
+      {
+        "label": "28/10/2026",
+        "value": 13.75
+      },
+      {
+        "label": "29/10/2026",
+        "value": 13.75
+      },
+      {
+        "label": "30/10/2026",
+        "value": 13.75
+      },
+      {
+        "label": "31/10/2026",
+        "value": 13.75
+      },
+      {
+        "label": "01/11/2026",
+        "value": 13.75
+      },
+      {
+        "label": "02/11/2026",
+        "value": 13.75
+      },
+      {
+        "label": "03/11/2026",
+        "value": 13.75
+      },
+      {
+        "label": "04/11/2026",
+        "value": 13.75
+      }
+    ],
+    "cdi": [
+      {
+        "label": "30/10/2026",
+        "value": 0.050788
+      }
+    ],
+    "tr": [
+      {
+        "label": "01/10/2026",
+        "value": 1.9564
+      }
+    ],
+    "ipca": [
+      {
+        "label": "fevereiro 2025",
+        "value": 1.31
+      },
+      {
+        "label": "março 2025",
+        "value": 0.56
+      },
+      {
+        "label": "abril 2025",
+        "value": 0.43
+      },
+      {
+        "label": "maio 2025",
+        "value": 0.26
+      },
+      {
+        "label": "junho 2025",
+        "value": 0.24
+      },
+      {
+        "label": "julho 2025",
+        "value": 0.26
+      },
+      {
+        "label": "agosto 2025",
+        "value": -0.11
+      },
+      {
+        "label": "setembro 2025",
+        "value": 0.48
+      },
+      {
+        "label": "outubro 2025",
+        "value": 0.09
+      },
+      {
+        "label": "novembro 2025",
+        "value": 0.18
+      },
+      {
+        "label": "dezembro 2025",
+        "value": 0.33
+      },
+      {
+        "label": "janeiro 2026",
+        "value": 0.33
+      },
+      {
+        "label": "fevereiro 2026",
+        "value": 0.7
+      },
+      {
+        "label": "março 2026",
+        "value": 0.88
+      },
+      {
+        "label": "abril 2026",
+        "value": 0.67
+      },
+      {
+        "label": "maio 2026",
+        "value": 0.58
+      },
+      {
+        "label": "junho 2026",
+        "value": 0.16
+      },
+      {
+        "label": "julho 2026",
+        "value": 0.07
+      },
+      {
+        "label": "agosto 2026",
+        "value": -0.32
+      },
+      {
+        "label": "setembro 2026",
+        "value": 0.82
+      }
+    ],
+    "ipca12": [
+      {
+        "label": "setembro 2026",
+        "value": 4.58
+      }
+    ],
+    "unemp": [
+      {
+        "label": "dez-jan-fev 2025",
+        "value": 6.8
+      },
+      {
+        "label": "jan-fev-mar 2025",
+        "value": 7.0
+      },
+      {
+        "label": "fev-mar-abr 2025",
+        "value": 6.6
+      },
+      {
+        "label": "mar-abr-mai 2025",
+        "value": 6.2
+      },
+      {
+        "label": "abr-mai-jun 2025",
+        "value": 5.8
+      },
+      {
+        "label": "mai-jun-jul 2025",
+        "value": 5.6
+      },
+      {
+        "label": "jun-jul-ago 2025",
+        "value": 5.6
+      },
+      {
+        "label": "jul-ago-set 2025",
+        "value": 5.6
+      },
+      {
+        "label": "ago-set-out 2025",
+        "value": 5.4
+      },
+      {
+        "label": "set-out-nov 2025",
+        "value": 5.2
+      },
+      {
+        "label": "out-nov-dez 2025",
+        "value": 5.1
+      },
+      {
+        "label": "nov-dez-jan 2026",
+        "value": 5.4
+      },
+      {
+        "label": "dez-jan-fev 2026",
+        "value": 5.8
+      },
+      {
+        "label": "jan-fev-mar 2026",
+        "value": 6.1
+      },
+      {
+        "label": "fev-mar-abr 2026",
+        "value": 5.8
+      },
+      {
+        "label": "mar-abr-mai 2026",
+        "value": 5.6
+      },
+      {
+        "label": "abr-mai-jun 2026",
+        "value": 5.4
+      },
+      {
+        "label": "mai-jun-jul 2026",
+        "value": 5.3
+      },
+      {
+        "label": "jun-jul-ago 2026",
+        "value": 5.3
+      },
+      {
+        "label": "jul-ago-set 2026",
+        "value": 5.2
+      }
+    ],
+    "employed": [
+      {
+        "label": "dez-jan-fev 2025",
+        "value": 100683.0
+      },
+      {
+        "label": "jan-fev-mar 2025",
+        "value": 100511.0
+      },
+      {
+        "label": "fev-mar-abr 2025",
+        "value": 101260.0
+      },
+      {
+        "label": "mar-abr-mai 2025",
+        "value": 101863.0
+      },
+      {
+        "label": "abr-mai-jun 2025",
+        "value": 102316.0
+      },
+      {
+        "label": "mai-jun-jul 2025",
+        "value": 102437.0
+      },
+      {
+        "label": "jun-jul-ago 2025",
+        "value": 102418.0
+      },
+      {
+        "label": "jul-ago-set 2025",
+        "value": 102433.0
+      },
+      {
+        "label": "ago-set-out 2025",
+        "value": 102555.0
+      },
+      {
+        "label": "set-out-nov 2025",
+        "value": 103019.0
+      },
+      {
+        "label": "out-nov-dez 2025",
+        "value": 102998.0
+      },
+      {
+        "label": "nov-dez-jan 2026",
+        "value": 102671.0
+      },
+      {
+        "label": "dez-jan-fev 2026",
+        "value": 102145.0
+      },
+      {
+        "label": "jan-fev-mar 2026",
+        "value": 101976.0
+      },
+      {
+        "label": "fev-mar-abr 2026",
+        "value": 102333.0
+      },
+      {
+        "label": "mar-abr-mai 2026",
+        "value": 102703.0
+      },
+      {
+        "label": "abr-mai-jun 2026",
+        "value": 103057.0
+      },
+      {
+        "label": "mai-jun-jul 2026",
+        "value": 103335.0
+      },
+      {
+        "label": "jun-jul-ago 2026",
+        "value": 103477.0
+      },
+      {
+        "label": "jul-ago-set 2026",
+        "value": 103638.0
+      }
+    ],
+    "population": [
+      {
+        "label": "2026",
+        "value": 214211951.0
+      }
+    ],
+    "usdPtax": [
+      {
+        "label": "20/10/2026",
+        "dateTime": "2026-10-20 13:09:36.250006",
+        "value": 5.0134
+      },
+      {
+        "label": "21/10/2026",
+        "dateTime": "2026-10-21 13:08:17.041224",
+        "value": 5.027
+      },
+      {
+        "label": "22/10/2026",
+        "dateTime": "2026-10-22 13:12:09.300403",
+        "value": 5.0377
+      },
+      {
+        "label": "23/10/2026",
+        "dateTime": "2026-10-23 13:07:14.754567",
+        "value": 5.0371
+      },
+      {
+        "label": "26/10/2026",
+        "dateTime": "2026-10-26 13:09:51.106105",
+        "value": 5.4998
+      },
+      {
+        "label": "27/10/2026",
+        "dateTime": "2026-10-27 13:05:26.521898",
+        "value": 5.334
+      },
+      {
+        "label": "28/10/2026",
+        "dateTime": "2026-10-28 13:05:31.600448",
+        "value": 5.3414
+      },
+      {
+        "label": "29/10/2026",
+        "dateTime": "2026-10-29 13:11:53.555689",
+        "value": 5.3738
+      },
+      {
+        "label": "30/10/2026",
+        "dateTime": "2026-10-30 13:04:18.706316",
+        "value": 5.4206
+      }
+    ],
+    "treasury": {
+      "prefix": 15.3,
+      "ipca": 8.02,
+      "prefixTitle": "Tesouro Prefixado 2029",
+      "ipcaTitle": "Tesouro IPCA+ 2032"
+    }
+  },
+  "errors": [
+    "ibov: tabela diária do Ibovespa não encontrada"
+  ]
+}

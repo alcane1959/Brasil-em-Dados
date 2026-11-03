@@ -2,11 +2,14 @@ name: Atualizar dados e publicar Pages
 
 on:
   workflow_dispatch:
+
   schedule:
     # 09:37, 13:37 e 18:37 no horário de Brasília, de segunda a sexta.
     - cron: '37 12,16,21 * * 1-5'
+
   push:
-    branches: [main]
+    branches:
+      - main
     paths-ignore:
       - 'dados/painel.json'
 
@@ -22,12 +25,14 @@ concurrency:
 jobs:
   atualizar-e-publicar:
     runs-on: ubuntu-latest
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - name: Baixar repositório
-        uses: actions/checkout@v6
+        uses: actions/checkout@v4
 
       - name: Atualizar dados oficiais
         run: python scripts/atualizar_dados.py
@@ -37,19 +42,20 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add dados/painel.json
+
           if ! git diff --cached --quiet; then
             git commit -m "Atualiza indicadores econômicos"
             git push
           fi
 
-      - name: Configurar Pages
+      - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Empacotar site
+      - name: Empacotar o site
         uses: actions/upload-pages-artifact@v4
         with:
           path: .
 
-      - name: Publicar Pages
+      - name: Publicar no GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

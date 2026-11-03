@@ -1,7 +1,7 @@
 {
   "app": "Brasil em Dados",
   "version": 5,
-  "exportedAt": "2026-11-03T13:13:56-03:00",
+  "exportedAt": "2026-11-03T13:18:29-03:00",
   "meta": {
     "usd": {
       "reference": "30/10/2026",
@@ -9,43 +9,43 @@
     },
     "selic": {
       "reference": "04/11/2026",
-      "consultedAt": "2026-11-03T13:13:51-03:00"
+      "consultedAt": "2026-11-03T13:18:24-03:00"
     },
     "cdi": {
       "reference": "30/10/2026",
-      "consultedAt": "2026-11-03T13:13:51-03:00"
+      "consultedAt": "2026-11-03T13:18:24-03:00"
     },
     "tr": {
       "reference": "01/10/2026",
-      "consultedAt": "2026-11-03T13:13:52-03:00"
+      "consultedAt": "2026-11-03T13:18:25-03:00"
     },
     "ipca": {
       "reference": "setembro 2026",
-      "consultedAt": "2026-11-03T13:13:53-03:00"
+      "consultedAt": "2026-11-03T13:18:26-03:00"
     },
     "ipca12": {
       "reference": "setembro 2026",
-      "consultedAt": "2026-11-03T13:13:53-03:00"
+      "consultedAt": "2026-11-03T13:18:26-03:00"
     },
     "unemp": {
       "reference": "jul-ago-set 2026",
-      "consultedAt": "2026-11-03T13:13:54-03:00"
+      "consultedAt": "2026-11-03T13:18:26-03:00"
     },
     "employed": {
       "reference": "jul-ago-set 2026",
-      "consultedAt": "2026-11-03T13:13:54-03:00"
+      "consultedAt": "2026-11-03T13:18:27-03:00"
     },
     "population": {
       "reference": "2026",
-      "consultedAt": "2026-11-03T13:13:55-03:00"
+      "consultedAt": "2026-11-03T13:18:27-03:00"
     },
     "usdPtax": {
       "reference": "03/11/2026",
-      "consultedAt": "2026-11-03T13:13:55-03:00"
+      "consultedAt": "2026-11-03T13:18:28-03:00"
     },
     "treasury": {
       "reference": "Tesouro Prefixado 2029 / Tesouro IPCA+ 2032",
-      "consultedAt": "2026-11-03T13:13:56-03:00"
+      "consultedAt": "2026-11-03T13:18:28-03:00"
     }
   },
   "state": {
@@ -543,6 +543,7 @@
     }
   },
   "errors": [
+    "usd: Expecting value: line 1 column 1 (char 0)",
     "ibov: tabela diária do Ibovespa não encontrada"
   ]
 }

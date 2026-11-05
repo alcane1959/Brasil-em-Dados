@@ -1,51 +1,51 @@
 {
   "app": "Brasil em Dados",
   "version": 5,
-  "exportedAt": "2026-11-04T16:59:15-03:00",
+  "exportedAt": "2026-11-04T22:44:36-03:00",
   "meta": {
     "usd": {
       "reference": "04/11/2026",
-      "consultedAt": "2026-11-04T16:59:11-03:00"
+      "consultedAt": "2026-11-04T22:44:31-03:00"
     },
     "selic": {
-      "reference": "04/11/2026",
-      "consultedAt": "2026-11-04T16:59:11-03:00"
+      "reference": "09/12/2026",
+      "consultedAt": "2026-11-04T22:44:32-03:00"
     },
     "cdi": {
       "reference": "03/11/2026",
-      "consultedAt": "2026-11-04T16:59:12-03:00"
+      "consultedAt": "2026-11-04T22:44:33-03:00"
     },
     "tr": {
       "reference": "01/11/2026",
-      "consultedAt": "2026-11-04T16:59:12-03:00"
+      "consultedAt": "2026-11-04T22:44:33-03:00"
     },
     "ipca": {
       "reference": "setembro 2026",
-      "consultedAt": "2026-11-04T16:59:13-03:00"
+      "consultedAt": "2026-11-04T22:44:34-03:00"
     },
     "ipca12": {
       "reference": "setembro 2026",
-      "consultedAt": "2026-11-04T16:59:13-03:00"
+      "consultedAt": "2026-11-04T22:44:34-03:00"
     },
     "unemp": {
       "reference": "jul-ago-set 2026",
-      "consultedAt": "2026-11-04T16:59:13-03:00"
+      "consultedAt": "2026-11-04T22:44:34-03:00"
     },
     "employed": {
       "reference": "jul-ago-set 2026",
-      "consultedAt": "2026-11-04T16:59:13-03:00"
+      "consultedAt": "2026-11-04T22:44:34-03:00"
     },
     "population": {
       "reference": "2026",
-      "consultedAt": "2026-11-04T16:59:14-03:00"
+      "consultedAt": "2026-11-04T22:44:35-03:00"
     },
     "usdPtax": {
       "reference": "04/11/2026",
-      "consultedAt": "2026-11-04T16:59:14-03:00"
+      "consultedAt": "2026-11-04T22:44:36-03:00"
     },
     "treasury": {
       "reference": "Tesouro Prefixado 2029 / Tesouro IPCA+ 2032",
-      "consultedAt": "2026-11-04T16:59:15-03:00"
+      "consultedAt": "2026-11-04T22:44:36-03:00"
     }
   },
   "state": {
@@ -133,83 +133,83 @@
     ],
     "selic": [
       {
-        "label": "16/10/2026",
+        "label": "20/11/2026",
         "value": 13.75
       },
       {
-        "label": "17/10/2026",
+        "label": "21/11/2026",
         "value": 13.75
       },
       {
-        "label": "18/10/2026",
+        "label": "22/11/2026",
         "value": 13.75
       },
       {
-        "label": "19/10/2026",
+        "label": "23/11/2026",
         "value": 13.75
       },
       {
-        "label": "20/10/2026",
+        "label": "24/11/2026",
         "value": 13.75
       },
       {
-        "label": "21/10/2026",
+        "label": "25/11/2026",
         "value": 13.75
       },
       {
-        "label": "22/10/2026",
+        "label": "26/11/2026",
         "value": 13.75
       },
       {
-        "label": "23/10/2026",
+        "label": "27/11/2026",
         "value": 13.75
       },
       {
-        "label": "24/10/2026",
+        "label": "28/11/2026",
         "value": 13.75
       },
       {
-        "label": "25/10/2026",
+        "label": "29/11/2026",
         "value": 13.75
       },
       {
-        "label": "26/10/2026",
+        "label": "30/11/2026",
         "value": 13.75
       },
       {
-        "label": "27/10/2026",
+        "label": "01/12/2026",
         "value": 13.75
       },
       {
-        "label": "28/10/2026",
+        "label": "02/12/2026",
         "value": 13.75
       },
       {
-        "label": "29/10/2026",
+        "label": "03/12/2026",
         "value": 13.75
       },
       {
-        "label": "30/10/2026",
+        "label": "04/12/2026",
         "value": 13.75
       },
       {
-        "label": "31/10/2026",
+        "label": "05/12/2026",
         "value": 13.75
       },
       {
-        "label": "01/11/2026",
+        "label": "06/12/2026",
         "value": 13.75
       },
       {
-        "label": "02/11/2026",
+        "label": "07/12/2026",
         "value": 13.75
       },
       {
-        "label": "03/11/2026",
+        "label": "08/12/2026",
         "value": 13.75
       },
       {
-        "label": "04/11/2026",
+        "label": "09/12/2026",
         "value": 13.75
       }
     ],

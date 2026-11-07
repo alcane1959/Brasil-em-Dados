@@ -1,6 +1,6 @@
 {
   "app": "Brasil em Dados",
-  "version": 5,
+  "version": 6,
   "exportedAt": "2026-11-06T22:07:59-03:00",
   "meta": {
     "usd": {
@@ -46,6 +46,14 @@
     "treasury": {
       "reference": "Tesouro Prefixado 2029 / Tesouro IPCA+ 2032",
       "consultedAt": "2026-11-06T22:07:59-03:00"
+    },
+    "eur": {
+      "reference": "06/11/2026",
+      "consultedAt": "2026-11-06T22:07:58-03:00"
+    },
+    "eurPtax": {
+      "reference": "06/11/2026",
+      "consultedAt": "2026-11-06T22:07:58-03:00"
     }
   },
   "state": {
@@ -540,7 +548,20 @@
       "ipca": 7.82,
       "prefixTitle": "Tesouro Prefixado 2029",
       "ipcaTitle": "Tesouro IPCA+ 2032"
-    }
+    },
+    "eur": [
+      {
+        "label": "06/11/2026",
+        "value": 6.13
+      }
+    ],
+    "eurPtax": [
+      {
+        "label": "06/11/2026",
+        "dateTime": "2026-11-06 13:00:00",
+        "value": 6.13
+      }
+    ]
   },
   "errors": [
     "ibov: tabela diária do Ibovespa não encontrada"
